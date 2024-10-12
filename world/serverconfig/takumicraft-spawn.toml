@@ -1,0 +1,209 @@
+#TakumiCraft spawn configuration factor
+[spawn]
+	#spawn factor for birdcreeper.
+	#Range: 0.0 ~ 10.0
+	birdcreeperSpawnFactor = 1.0
+	#spawn factor for glasscreeper.
+	#Range: 0.0 ~ 10.0
+	glasscreeperSpawnFactor = 1.0
+	#spawn factor for dripstonecreeper.
+	#Range: 0.0 ~ 10.0
+	dripstonecreeperSpawnFactor = 1.0
+	#spawn factor for spidercreeper.
+	#Range: 0.0 ~ 10.0
+	spidercreeperSpawnFactor = 1.0
+	#spawn factor for happinesscreeper.
+	#Range: 0.0 ~ 10.0
+	happinesscreeperSpawnFactor = 1.0
+	#spawn factor for ironcreeper.
+	#Range: 0.0 ~ 10.0
+	ironcreeperSpawnFactor = 1.0
+	#spawn factor for sandcreeper.
+	#Range: 0.0 ~ 10.0
+	sandcreeperSpawnFactor = 1.0
+	#spawn factor for firecreeper.
+	#Range: 0.0 ~ 10.0
+	firecreeperSpawnFactor = 1.0
+	#spawn factor for horsecreeper.
+	#Range: 0.0 ~ 10.0
+	horsecreeperSpawnFactor = 1.0
+	#spawn factor for bangcreeper.
+	#Range: 0.0 ~ 10.0
+	bangcreeperSpawnFactor = 1.0
+	#spawn factor for objetcreeper.
+	#Range: 0.0 ~ 10.0
+	objetcreeperSpawnFactor = 1.0
+	#spawn factor for bedcreeper.
+	#Range: 0.0 ~ 10.0
+	bedcreeperSpawnFactor = 1.0
+	#spawn factor for zombiecreeper.
+	#Range: 0.0 ~ 10.0
+	zombiecreeperSpawnFactor = 1.0
+	#spawn factor for childcreeper.
+	#Range: 0.0 ~ 10.0
+	childcreeperSpawnFactor = 1.0
+	#spawn factor for silentcreeper.
+	#Range: 0.0 ~ 10.0
+	silentcreeperSpawnFactor = 1.0
+	#spawn factor for rewritecreeper.
+	#Range: 0.0 ~ 10.0
+	rewritecreeperSpawnFactor = 1.0
+	#spawn factor for restcreeper.
+	#Range: 0.0 ~ 10.0
+	restcreeperSpawnFactor = 1.0
+	#spawn factor for dirtcreeper.
+	#Range: 0.0 ~ 10.0
+	dirtcreeperSpawnFactor = 1.0
+	#spawn factor for minispidercreeper.
+	#Range: 0.0 ~ 10.0
+	minispidercreeperSpawnFactor = 1.0
+	#spawn factor for macecreeper.
+	#Range: 0.0 ~ 10.0
+	macecreeperSpawnFactor = 1.0
+	#spawn factor for kingcreeper.
+	#Range: 0.0 ~ 10.0
+	kingcreeperSpawnFactor = 1.0
+	#spawn factor for huskcreeper.
+	#Range: 0.0 ~ 10.0
+	huskcreeperSpawnFactor = 1.0
+	#spawn factor for cherrycreeper.
+	#Range: 0.0 ~ 10.0
+	cherrycreeperSpawnFactor = 1.0
+	#Spawn factor for all takumicraft creeper.
+	#Range: 0.0 ~ 10.0
+	generalSpawnFactor = 1.0
+	#spawn factor for fallcreeper.
+	#Range: 0.0 ~ 10.0
+	fallcreeperSpawnFactor = 1.0
+	#spawn factor for yukaricreeper.
+	#Range: 0.0 ~ 10.0
+	yukaricreeperSpawnFactor = 1.0
+	#spawn factor for arrowcreeper.
+	#Range: 0.0 ~ 10.0
+	arrowcreeperSpawnFactor = 1.0
+	#spawn factor for sleepercreeper.
+	#Range: 0.0 ~ 10.0
+	sleepercreeperSpawnFactor = 1.0
+	#spawn factor for coppercreeper.
+	#Range: 0.0 ~ 10.0
+	coppercreeperSpawnFactor = 1.0
+	#spawn factor for stonecreeper.
+	#Range: 0.0 ~ 10.0
+	stonecreeperSpawnFactor = 1.0
+	#spawn factor for powdersnowcreeper.
+	#Range: 0.0 ~ 10.0
+	powdersnowcreeperSpawnFactor = 1.0
+	#spawn factor for watercreeper.
+	#Range: 0.0 ~ 10.0
+	watercreeperSpawnFactor = 1.0
+	#spawn factor for musiccreeper.
+	#Range: 0.0 ~ 10.0
+	musiccreeperSpawnFactor = 1.0
+	#spawn factor for zombievillagercreeper.
+	#Range: 0.0 ~ 10.0
+	zombievillagercreeperSpawnFactor = 1.0
+	#spawn factor for diamondcreeper.
+	#Range: 0.0 ~ 10.0
+	diamondcreeperSpawnFactor = 1.0
+	#spawn factor for wolfcreeper.
+	#Range: 0.0 ~ 10.0
+	wolfcreeperSpawnFactor = 1.0
+	#spawn factor for patinacreeper.
+	#Range: 0.0 ~ 10.0
+	patinacreeperSpawnFactor = 1.0
+	#spawn factor for fireworkscreeper.
+	#Range: 0.0 ~ 10.0
+	fireworkscreeperSpawnFactor = 1.0
+	#spawn factor for woodcreeper.
+	#Range: 0.0 ~ 10.0
+	woodcreeperSpawnFactor = 1.0
+	#spawn factor for pigcreeper.
+	#Range: 0.0 ~ 10.0
+	pigcreeperSpawnFactor = 1.0
+	#spawn factor for glowingsquidcreeper.
+	#Range: 0.0 ~ 10.0
+	glowingsquidcreeperSpawnFactor = 1.0
+	#spawn factor for naturalcreeper.
+	#Range: 0.0 ~ 10.0
+	naturalcreeperSpawnFactor = 1.0
+	#spawn factor for acidcreeper.
+	#Range: 0.0 ~ 10.0
+	acidcreeperSpawnFactor = 1.0
+	#spawn factor for netheritecreeper.
+	#Range: 0.0 ~ 10.0
+	netheritecreeperSpawnFactor = 1.0
+	#spawn factor for drownedcreeper.
+	#Range: 0.0 ~ 10.0
+	drownedcreeperSpawnFactor = 1.0
+	#spawn factor for sheepcreeper.
+	#Range: 0.0 ~ 10.0
+	sheepcreeperSpawnFactor = 1.0
+	#spawn factor for witherskeletoncreeper.
+	#Range: 0.0 ~ 10.0
+	witherskeletoncreeperSpawnFactor = 1.0
+	#spawn factor for returncreeper.
+	#Range: 0.0 ~ 10.0
+	returncreeperSpawnFactor = 1.0
+	#spawn factor for musclecreeper.
+	#Range: 0.0 ~ 10.0
+	musclecreeperSpawnFactor = 1.0
+	#spawn factor for redstonecreeper.
+	#Range: 0.0 ~ 10.0
+	redstonecreeperSpawnFactor = 1.0
+	#spawn factor for glowstonecreeper.
+	#Range: 0.0 ~ 10.0
+	glowstonecreeperSpawnFactor = 1.0
+	#spawn factor for straycreeper.
+	#Range: 0.0 ~ 10.0
+	straycreeperSpawnFactor = 1.0
+	#spawn factor for emeraldcreeper.
+	#Range: 0.0 ~ 10.0
+	emeraldcreeperSpawnFactor = 1.0
+	#spawn factor for lavacreeper.
+	#Range: 0.0 ~ 10.0
+	lavacreeperSpawnFactor = 1.0
+	#spawn factor for rabbitcreeper.
+	#Range: 0.0 ~ 10.0
+	rabbitcreeperSpawnFactor = 1.0
+	#spawn factor for endercreeper.
+	#Range: 0.0 ~ 10.0
+	endercreeperSpawnFactor = 1.0
+	#spawn factor for sculkcreeper.
+	#Range: 0.0 ~ 10.0
+	sculkcreeperSpawnFactor = 1.0
+	#spawn factor for skeletoncreeper.
+	#Range: 0.0 ~ 10.0
+	skeletoncreeperSpawnFactor = 1.0
+	#spawn factor for icecreeper.
+	#Range: 0.0 ~ 10.0
+	icecreeperSpawnFactor = 1.0
+	#spawn factor for cowcreeper.
+	#Range: 0.0 ~ 10.0
+	cowcreeperSpawnFactor = 1.0
+	#spawn factor for amethystcreeper.
+	#Range: 0.0 ~ 10.0
+	amethystcreeperSpawnFactor = 1.0
+	#spawn factor for boltcreeper.
+	#Range: 0.0 ~ 10.0
+	boltcreeperSpawnFactor = 1.0
+	#spawn factor for ofalencreeper.
+	#Range: 0.0 ~ 10.0
+	ofalencreeperSpawnFactor = 1.0
+	#spawn factor for artcreeper.
+	#Range: 0.0 ~ 10.0
+	artcreeperSpawnFactor = 1.0
+	#spawn factor for lightcreeper.
+	#Range: 0.0 ~ 10.0
+	lightcreeperSpawnFactor = 1.0
+	#spawn factor for phantomcreeper.
+	#Range: 0.0 ~ 10.0
+	phantomcreeperSpawnFactor = 1.0
+	#spawn factor for slimecreeper.
+	#Range: 0.0 ~ 10.0
+	slimecreeperSpawnFactor = 1.0
+	#spawn factor for squidcreeper.
+	#Range: 0.0 ~ 10.0
+	squidcreeperSpawnFactor = 1.0
+	#spawn factor for potatocreeper.
+	#Range: 0.0 ~ 10.0
+	potatocreeperSpawnFactor = 1.0

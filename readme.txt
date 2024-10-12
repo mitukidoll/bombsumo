@@ -1,63 +1,52 @@
-『爆破相撲』
+If you need help with your Forge server, join our Discord or forums:
+- https://discord.minecraftforge.net
+- https://forums.minecraftforge.net
 
-制作 : TNTLaboratory
-協力 : takumicraft server
+Quick start guide
+=================
+The steps will vary depending on if you're self-hosting or using a hosting provider:
 
-＊ … * … ＊ … * …＊ … * … ＊ … * …＊ … * … ＊ … * … ＊ …
+Self-hosting
+------------
+On Windows, start the server by double-clicking the run.bat file.
+On Linux or macOS, start the server by running the run.sh script.
 
+- To change the amount of RAM allocated to the game, edit the user_jvm_args.txt file.
+- To hide the GUI, edit the run.bat or run.sh file and refer to its instructions.
+- To change server settings, edit the server.properties file and config files in the config folder.
 
--このワールドについて
-匠Craftを前提MODとしたPVPワールドです。
-詳細は、配布ページまたは同フォルダ内にある紹介＆プレイガイドをご覧ください。
+Hosting providers
+-----------------
+The steps will vary depending on your hosting provider and what panel they use.
 
+Some providers require you to install Forge through an option in their panel, others require you to upload the files
+yourself and select a jar file. It's recommended to install Forge through the panel if possible, as it'll be easier.
 
--インストール方法
-解凍したworldをサーバーのルートフォルダに置いてください。
-TNTModdersで配布されている匠Craftをダウンロードし、サーバー、クライアント共に手順に従って導入してください。
-お好みで、worldと同じフォルダにserver-iconを配置してください。
+If you need to select a jar file, upload your Forge server install (all files in the folder this readme is in) and
+select the shim jar file.
 
+If you're unsure, contact your hosting provider's or server panel's support.
 
--前提環境
-Minecraft : 1.12.2
-MOD : takumicraft-2.1.0
+Performance tuning
+==================
+Here are some tips and advice to improve server performance:
 
+- Use the latest version of MC, Forge and mods when possible. Newer versions usually have performance improvements.
 
--注意事項
-・ワールドの二次配布を禁止します。
-・軽量化MODを含む他のMODを導入した場合、動作の保証はできかねます。
-・テレポートコマンドなど、何らかの手段での壁抜けを行うと、バグを引き起こす可能性があります。
-・配布ページにてバグ報告を受け付けていますが、再現できないバグの場合は対応できないことが多いです。
+- Turn down the view distance and simulation distance in the server.properties file. Simulation distance should be the
+  same as or marginally lower than view distance.
 
+- Don't allocate excessive amounts of RAM to the game - especially if self-hosting. Too much can cause lag, as it could
+  cause resource contention with other things running on the same machine, such as the OS, drivers and other apps.
 
--サーバー側設定
-server.propertiesのうち、以下の項目を編集してください。
-enable-command-block=true
-allow-flight=true
-view-distance=14
-gamemode=2
-motdの末尾に\:tc_server
+- When using custom JVM args, test the before and after. There isn't a one-size-fits-all solution, and some settings
+  might make things worse with your specific hardware and combination of mods.
 
-サーバールートフォルダ>config>takumicraft.cfgのうち、以下の項目を編集してください。2つ目の設定項目です。
-B:ineventserver=true
+- Use a profiler (such as the Spark mod by lucko) to find the cause of lag. Some mods may be poorly optimised or simply
+  do a lot of things. When you find the cause, you may want to disable that specific part of the mod in its config file,
+  check for an update, report the issue to the mod author, find an alternative and/or remove the mod entirely.
 
+- Contrary to popular belief, modern Minecraft isn't single-threaded. After a certain amount of RAM, you may get better
+  performance from adding more fast CPU cores rather than adding more RAM.
 
--クライアント側設定
-雲の描画をオフにしてください。
-明るさは「明るい」を推奨しています。
-
-
--配信、動画化について
-このワールドを配信や動画で扱うにあたり、特に許可を取る必要はありません。
-配布ページに動画のリンクを張っていただくか　#爆破相撲　#匠Craft　をつけて投稿していただけると嬉しいです。
-
-
--その他不具合報告、コンタクト
-https://tntlaboratory.net/bombsumo/
-
-
-＊ … * … ＊ … * …＊ … * … ＊ … * …＊ … * … ＊ … * … ＊ …
-
-2023/12/17
-ver β1.0
-
-
+For more help with performance, please ask on the forums or Discord.

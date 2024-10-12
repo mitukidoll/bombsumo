@@ -1,0 +1,7 @@
+#TakumiCraft server configuration settings
+[server]
+	#Config for protect takumiblock. If this is set to be true, only the admin and the player who place the block can edit and break it.
+	usetakumiblocklock = false
+	#Config for protect around spawn area. Factor defined to be double, 0 without protection, 1 with full protection on spawn protection set by server.
+	#Range: 0.0 ~ 1.0
+	spawnprotection = 0.0
