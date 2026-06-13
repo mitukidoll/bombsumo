@@ -1,1 +1,0 @@
-execute anchored eyes run function view:main

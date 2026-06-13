@@ -207,3 +207,96 @@
 	#spawn factor for potatocreeper.
 	#Range: 0.0 ~ 10.0
 	potatocreeperSpawnFactor = 1.0
+	#spawn factor for bamboocreeper.
+	#Range: 0.0 ~ 10.0
+	bamboocreeperSpawnFactor = 1.0
+	#spawn factor for myceliumcreeper.
+	#Range: 0.0 ~ 10.0
+	myceliumcreeperSpawnFactor = 1.0
+	#spawn factor for hotspringcreeper.
+	#Range: 0.0 ~ 10.0
+	hotspringcreeperSpawnFactor = 1.0
+	#spawn factor for blazecreeper.
+	#Range: 0.0 ~ 10.0
+	blazecreeperSpawnFactor = 1.0
+	#spawn factor for breezecreeper.
+	#Range: 0.0 ~ 10.0
+	breezecreeperSpawnFactor = 1.0
+	#spawn factor for beecreeper.
+	#Range: 0.0 ~ 10.0
+	beecreeperSpawnFactor = 1.0
+	#spawn factor for parrotcreeper.
+	#Range: 0.0 ~ 10.0
+	parrotcreeperSpawnFactor = 1.0
+	#spawn factor for batcreeper.
+	#Range: 0.0 ~ 10.0
+	batcreeperSpawnFactor = 1.0
+	#spawn factor for bigbatcreeper.
+	#Range: 0.0 ~ 10.0
+	bigbatcreeperSpawnFactor = 1.0
+	#spawn factor for rushcreeper.
+	#Range: 0.0 ~ 10.0
+	rushcreeperSpawnFactor = 1.0
+	#spawn factor for dashcreeper.
+	#Range: 0.0 ~ 10.0
+	dashcreeperSpawnFactor = 1.0
+	#spawn factor for chasecreeper.
+	#Range: 0.0 ~ 10.0
+	chasecreeperSpawnFactor = 1.0
+	#spawn factor for ravagercreeper.
+	#Range: 0.0 ~ 10.0
+	ravagercreeperSpawnFactor = 1.0
+	#spawn factor for catcreeper.
+	#Range: 0.0 ~ 10.0
+	catcreeperSpawnFactor = 1.0
+	#spawn factor for lostcreeper.
+	#Range: 0.0 ~ 10.0
+	lostcreeperSpawnFactor = 1.0
+	#spawn factor for colorcreeper.
+	#Range: 0.0 ~ 10.0
+	colorcreeperSpawnFactor = 1.0
+	#spawn factor for weathercreeper.
+	#Range: 0.0 ~ 10.0
+	weathercreeperSpawnFactor = 1.0
+	#spawn factor for goatcreeper.
+	#Range: 0.0 ~ 10.0
+	goatcreeperSpawnFactor = 1.0
+	#spawn factor for llamacreeper.
+	#Range: 0.0 ~ 10.0
+	llamacreeperSpawnFactor = 1.0
+	#spawn factor for voidcreeper.
+	#Range: 0.0 ~ 10.0
+	voidcreeperSpawnFactor = 1.0
+	#spawn factor for gunorecreeper.
+	#Range: 0.0 ~ 10.0
+	gunorecreeperSpawnFactor = 1.0
+	#spawn factor for hydrothermalcreeper.
+	#Range: 0.0 ~ 10.0
+	hydrothermalcreeperSpawnFactor = 1.0
+	#spawn factor for piercecreeper.
+	#Range: 0.0 ~ 10.0
+	piercecreeperSpawnFactor = 1.0
+	#spawn factor for callcreeper.
+	#Range: 0.0 ~ 10.0
+	callcreeperSpawnFactor = 1.0
+	#spawn factor for fallingbombcreeper.
+	#Range: 0.0 ~ 10.0
+	fallingbombcreeperSpawnFactor = 1.0
+	#spawn factor for fallingslimecreeper.
+	#Range: 0.0 ~ 10.0
+	fallingslimecreeperSpawnFactor = 1.0
+	#spawn factor for witchcreeper.
+	#Range: 0.0 ~ 10.0
+	witchcreeperSpawnFactor = 1.0
+	#spawn factor for vindicatorcreeper.
+	#Range: 0.0 ~ 10.0
+	vindicatorcreeperSpawnFactor = 1.0
+	#spawn factor for vexcreeper.
+	#Range: 0.0 ~ 10.0
+	vexcreeperSpawnFactor = 1.0
+	#spawn factor for evokercreeper.
+	#Range: 0.0 ~ 10.0
+	evokercreeperSpawnFactor = 1.0
+	#spawn factor for allaycreeper.
+	#Range: 0.0 ~ 10.0
+	allaycreeperSpawnFactor = 1.0
