@@ -1,52 +1,58 @@
-If you need help with your Forge server, join our Discord or forums:
-- https://discord.minecraftforge.net
-- https://forums.minecraftforge.net
+爆風を使って、押し出して、押し出されずに、最後の一人になれ！
 
-Quick start guide
-=================
-The steps will vary depending on if you're self-hosting or using a hosting provider:
 
-Self-hosting
-------------
-On Windows, start the server by double-clicking the run.bat file.
-On Linux or macOS, start the server by running the run.sh script.
+1.試合の流れ
 
-- To change the amount of RAM allocated to the game, edit the user_jvm_args.txt file.
-- To hide the GUI, edit the run.bat or run.sh file and refer to its instructions.
-- To change server settings, edit the server.properties file and config files in the config folder.
 
-Hosting providers
------------------
-The steps will vary depending on your hosting provider and what panel they use.
 
-Some providers require you to install Forge through an option in their panel, others require you to upload the files
-yourself and select a jar file. It's recommended to install Forge through the panel if possible, as it'll be easier.
+※操作には後述のADMIN権限が必要です。
 
-If you need to select a jar file, upload your Forge server install (all files in the folder this readme is in) and
-select the shim jar file.
+ロビーから緑ののれんがかかった部屋の感圧版を踏むと、設定部屋に移動します。ボタンをクリックまたは看板をクリックで操作できます。
+チーム戦を選んだ場合、ロビーの色ブロックを踏むことでチームに入ることができます。
 
-If you're unsure, contact your hosting provider's or server panel's support.
+設定変更後、ロビーで白い服の「ゲームマスター」に話しかけると、設定の確認、ゲームの開始ができます。
+チャット欄を開いて直接クリックしてください。
 
-Performance tuning
-==================
-Here are some tips and advice to improve server performance:
+試合時間進行に応じて強力なアイテムが中央に出現し、ステージ毎に違ったイベントが起こります。詳細はプレイして確かめてみてください。
+リスポーン後は5秒間の爆風無効が付きます。また、高所などはエリア外として、15秒滞在すると落下と同じ扱いになります。
 
-- Use the latest version of MC, Forge and mods when possible. Newer versions usually have performance improvements.
+残りプレイヤーが1名になるか、時間切れになると終了し、ロビーに戻ります。
 
-- Turn down the view distance and simulation distance in the server.properties file. Simulation distance should be the
-  same as or marginally lower than view distance.
+プレイヤーが透明になってしまった場合、スニークで戻ります。バニラの不具合のようです。
 
-- Don't allocate excessive amounts of RAM to the game - especially if self-hosting. Too much can cause lag, as it could
-  cause resource contention with other things running on the same machine, such as the OS, drivers and other apps.
 
-- When using custom JVM args, test the before and after. There isn't a one-size-fits-all solution, and some settings
-  might make things worse with your specific hardware and combination of mods.
 
-- Use a profiler (such as the Spark mod by lucko) to find the cause of lag. Some mods may be poorly optimised or simply
-  do a lot of things. When you find the cause, you may want to disable that specific part of the mod in its config file,
-  check for an update, report the issue to the mod author, find an alternative and/or remove the mod entirely.
 
-- Contrary to popular belief, modern Minecraft isn't single-threaded. After a certain amount of RAM, you may get better
-  performance from adding more fast CPU cores rather than adding more RAM.
+2.ADMIN権限
 
-For more help with performance, please ask on the forums or Discord.
+ゲーム内で各種設定を操作するために、権限が必要です。
+（サーバーのOP権限と区別するために、ADMIN権限と呼びます。）
+
+ADMIN権限を付与したいプレイヤーは
+/function admin:admin
+と実行してください。OP権限が必要です。
+
+権限を削除する場合は
+/function admin:removeadmin
+
+他人の権限を操作したい場合は
+/execute as [対象プレイヤー] run function admin:admin
+/execute as [対象プレイヤー] run function admin:removeadmin
+
+この権限があることで、各種設定変更や初期化を行えます。
+OP権限を持っていないプレイヤーがADMIN権限を取得した場合、一部使えない機能があります。
+
+
+
+
+3.ほか機能紹介
+
+「遊び人」に話しかけるとイベントエリアに移動し、ギャラリースペースに繋がっています。
+
+
+～＊～＊～＊～＊～＊～＊～＊～
+
+対応Version：1.21.3
+前提MOD：匠Craft
+
+TNT Laboratory

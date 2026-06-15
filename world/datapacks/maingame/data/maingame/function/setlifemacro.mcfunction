@@ -1,0 +1,1 @@
+$scoreboard players display numberformat status_life status fixed {"text": "$(score)", "color": "yellow", "bold": true}
